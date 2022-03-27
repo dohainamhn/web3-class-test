@@ -170,7 +170,7 @@ export function TableComponent({ data }: any) {
                 {new BigNumber(item.amount).div(1e18).toFixed(4).toString()}
               </TableCell>
               <TableCell style={{ width: 160 }} align="right">
-                {`${moment.unix(item.date).format("HH:MM")}   ${moment
+                {`${moment.unix(item.date).format("HH:mm")}   ${moment
                   .unix(item.date)
                   .format("DD/MM/YYYY")}`}
               </TableCell>
