@@ -97,7 +97,7 @@ export const useLoadData = ({
   const handleLoadDataFromGraph = async (_account: string) => {
     try {
       const rawData = await fetch(
-        "https://api.thegraph.com/subgraphs/id/QmUeW81F6vCytYtZP25hQM3823TXcdP7Rh9opvXETF9KkM",
+        "https://api.thegraph.com/subgraphs/name/dohainamhn/nam-coin",
         {
           method: "POST",
           headers: {
